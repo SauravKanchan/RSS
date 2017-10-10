@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mnuTopStories"
+            android:checked="true"
+            android:title="Top Stories" />
+        <item
+            android:id="@+id/mnuTechnical"
+            android:title="Technical" />
+        <item
+            android:id="@+id/mnuWorld"
+            android:title="World" />
+        <item
+            android:id="@+id/mnuIndia"
+            android:title="India" />
+        <item
+            android:id="@+id/mnuScience"
+            android:title="Science" />
+    </group>
+
+</menu>
